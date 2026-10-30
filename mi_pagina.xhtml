@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Portafolio Personal - Frank Alberto Sherivé</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f5f7;
+      color: #222222;
+    }
+    #encabezado {
+      background-color: #7a0c0c;
+      color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    #encabezado h1 {
+      margin: 0 0 8px 0;
+    }
+    #menu {
+      background-color: #333333;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    #menu a {
+      color: #ffffff;
+      margin: 0 12px;
+      text-decoration: none;
+    }
+    #contenido {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .seccion {
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .seccion img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    fieldset {
+      border: 1px solid #cccccc;
+      padding: 15px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 6px;
+      margin-top: 4px;
+      box-sizing: border-box;
+    }
+    #enviar {
+      width: auto;
+      margin-top: 15px;
+      background-color: #7a0c0c;
+      color: #ffffff;
+      border: none;
+      padding: 10px 24px;
+      cursor: pointer;
+    }
+    #pie {
+      background-color: #333333;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px;
+    }
+    #pie a {
+      color: #ffcccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado de la página -->
+  <div id="encabezado">
+    <h1>Frank Alberto Sherivé</h1>
+    <p>Estudiante de Ingeniería en Software y fundador de <strong>Alberionix</strong></p>
+  </div>
+
+  <!-- Menú de navegación con enlaces internos -->
+  <div id="menu">
+    <p>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </p>
+  </div>
+
+  <!-- Contenido principal -->
+  <div id="contenido">
+
+    <div class="seccion" id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy estudiante de <strong>Ingeniería en Software</strong> en la
+        Universidad Federico Henríquez y Carvajal (UFHEC), en La Romana,
+        República Dominicana. También me formo en ciberseguridad y
+        administración de empresas.
+      </p>
+      <p>
+        En 2025 fundé <strong>Alberionix</strong>, una empresa de desarrollo
+        de software enfocada en crear soluciones <em>web, PWA y de escritorio</em>
+        pensadas para el mercado dominicano y latinoamericano.
+      </p>
+      <p>
+        Mi objetivo es construir productos <em>útiles, seguros y escalables</em>,
+        aplicando buenas prácticas de programación y estándares web como XHTML.
+      </p>
+      <p>
+        <img src="img/imagen.jpg" alt="Banner del portafolio de Frank Alberto Sherivé, desarrollador de software" width="800" height="400" />
+      </p>
+    </div>
+
+    <div class="seccion" id="proyectos">
+      <h2>Proyectos destacados</h2>
+      <p>Estos son algunos de los proyectos que desarrollo bajo la marca <strong>Alberionix</strong>:</p>
+      <ul>
+        <li><strong>ALUMINO</strong>: software de cálculo y despiece para talleres de aluminio y vidrio.</li>
+        <li><strong>OBRISMA</strong>: sistema de cálculo de materiales y presupuestos de construcción.</li>
+        <li><strong>VENDRISMA</strong>: catálogo, ventas, inventario y facturación para negocios.</li>
+        <li><strong>VIRTUALIX</strong>: visualización arquitectónica en 3D.</li>
+      </ul>
+      <h2>Habilidades</h2>
+      <ol>
+        <li>Desarrollo web (HTML, XHTML, CSS y JavaScript)</li>
+        <li>Desarrollo de aplicaciones de escritorio</li>
+        <li>Bases de datos</li>
+        <li>Fundamentos de ciberseguridad</li>
+      </ol>
+    </div>
+
+    <div class="seccion" id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes un proyecto en mente? <em>Escríbeme</em> y te responderé lo antes posible.</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Formulario de contacto</legend>
+
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" />
+
+          <label for="correo">Correo electrónico:</label>
+          <input type="text" id="correo" name="correo" />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea>
+
+          <input type="submit" id="enviar" value="Enviar" />
+        </fieldset>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Pie de página con enlace externo -->
+  <div id="pie">
+    <p>
+      &#169; 2026 Frank Alberto Sherivé - Alberionix |
+      <a href="https://github.com/ing-frank">Mi GitHub</a> |
+      <a href="https://www.ufhec.edu.do/">UFHEC</a>
+    </p>
+  </div>
+
+</body>
+</html>
